@@ -7,13 +7,29 @@
 
 html {
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     font-size: 2rem;
 }
 
 .container {
     background-color: #083b4c;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
+.box2 {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: calc(100% / 7 - 20px);
+    height: 100px;
+    margin: 10px; 
+    text-align: center;
+    line-height: 100px;
+}
+
+.box-red {
+    background-color: #f0466f;
+}

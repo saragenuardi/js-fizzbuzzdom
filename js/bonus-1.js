@@ -15,6 +15,6 @@ for (let i =1; i <=100; i++) {
         mileStone.innerHTML += `<span>${'Fizz'} ${'-'}</span> `;
     }
     else {
-        mileStone.innerHTML += `<span>${'Fizz'} ${'-'}</span> `;
+        mileStone.innerHTML += `<span>${i} ${'-'}</span> `;
     }
 }
